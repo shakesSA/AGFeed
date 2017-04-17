@@ -10,14 +10,14 @@ namespace AGFeedTest
         public void CanTheUserFileBeRead()
         {
             AGFeed.FileReader fileReader = new AGFeed.FileReader();
-            Assert.IsNotNull(fileReader.ReadFile(@"/DataFiles/users.txt"));
+            Assert.IsNotNull(fileReader.ReadFile(@"DataFiles/user.txt"));
         }
 
         [TestMethod]
         public void CanTheweetFileBeRead()
         {
             AGFeed.FileReader fileReader = new AGFeed.FileReader();
-            Assert.IsNotNull(fileReader.ReadFile(@"/DataFiles/tweets.txt"));
+            Assert.IsNotNull(fileReader.ReadFile(@"DataFiles/tweet.txt"));
         }
 
         [TestMethod]
